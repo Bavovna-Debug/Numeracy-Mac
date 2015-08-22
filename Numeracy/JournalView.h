@@ -5,8 +5,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Brain.h"
+#import "Journal.h"
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
-}
+@interface JournalView : NSCollectionView <JournalDelegate>
+
+@end

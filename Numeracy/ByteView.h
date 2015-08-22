@@ -6,7 +6,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
-}
+@interface ByteView : NSView
+
+@property (assign, nonatomic) int bytePosition;
+
+- (void)refresh;
+
+@end

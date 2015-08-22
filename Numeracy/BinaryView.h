@@ -5,8 +5,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Brain.h"
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
-}
+@interface BinaryView : NSView <BrainListener>
+
+@end

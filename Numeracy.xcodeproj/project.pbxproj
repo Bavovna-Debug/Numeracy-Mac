@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94D4E11E1B77D2FF0054732B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E11D1B77D2FF0054732B /* AppDelegate.m */; };
+		9409650E1B8877A700E81BF9 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9409650D1B8877A700E81BF9 /* MainWindow.m */; };
+		94863A7E1B822AC900DDF183 /* BinaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A7D1B822AC900DDF183 /* BinaryView.m */; };
+		94863A811B822CAF00DDF183 /* BitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A801B822CAF00DDF183 /* BitButton.m */; };
+		94863A841B822F9B00DDF183 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A831B822F9B00DDF183 /* Brain.m */; };
+		94863A871B82826500DDF183 /* ByteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A861B82826500DDF183 /* ByteView.m */; };
+		94863A8A1B86270B00DDF183 /* JournalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A891B86270B00DDF183 /* JournalView.m */; };
+		94863A8D1B862AF900DDF183 /* JournalRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94863A8C1B862AF900DDF183 /* JournalRecordView.m */; };
+		94B68AB81B875A8F00E5F873 /* JournalBitLane.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B68AB71B875A8F00E5F873 /* JournalBitLane.m */; };
+		94B68ABB1B87A41D00E5F873 /* Journal.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B68ABA1B87A41D00E5F873 /* Journal.m */; };
+		94B68ABE1B87A52100E5F873 /* JournalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B68ABD1B87A52100E5F873 /* JournalRecord.m */; };
+		94D4E11E1B77D2FF0054732B /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E11D1B77D2FF0054732B /* ApplicationDelegate.m */; };
 		94D4E1201B77D2FF0054732B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E11F1B77D2FF0054732B /* main.m */; };
 		94D4E1231B77D2FF0054732B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1221B77D2FF0054732B /* ViewController.m */; };
 		94D4E1251B77D2FF0054732B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D4E1241B77D2FF0054732B /* Images.xcassets */; };
@@ -26,10 +36,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9409650C1B8877A700E81BF9 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		9409650D1B8877A700E81BF9 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		94863A7B1B82205C00DDF183 /* Numeracy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Numeracy.entitlements; sourceTree = "<group>"; };
+		94863A7C1B822AC900DDF183 /* BinaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryView.h; sourceTree = "<group>"; };
+		94863A7D1B822AC900DDF183 /* BinaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryView.m; sourceTree = "<group>"; };
+		94863A7F1B822CAF00DDF183 /* BitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitButton.h; sourceTree = "<group>"; };
+		94863A801B822CAF00DDF183 /* BitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitButton.m; sourceTree = "<group>"; };
+		94863A821B822F9B00DDF183 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		94863A831B822F9B00DDF183 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		94863A851B82826500DDF183 /* ByteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteView.h; sourceTree = "<group>"; };
+		94863A861B82826500DDF183 /* ByteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteView.m; sourceTree = "<group>"; };
+		94863A881B86270B00DDF183 /* JournalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalView.h; sourceTree = "<group>"; };
+		94863A891B86270B00DDF183 /* JournalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalView.m; sourceTree = "<group>"; };
+		94863A8B1B862AF900DDF183 /* JournalRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalRecordView.h; sourceTree = "<group>"; };
+		94863A8C1B862AF900DDF183 /* JournalRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalRecordView.m; sourceTree = "<group>"; };
+		94B68AB61B875A8F00E5F873 /* JournalBitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalBitLane.h; sourceTree = "<group>"; };
+		94B68AB71B875A8F00E5F873 /* JournalBitLane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalBitLane.m; sourceTree = "<group>"; };
+		94B68AB91B87A41D00E5F873 /* Journal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Journal.h; sourceTree = "<group>"; };
+		94B68ABA1B87A41D00E5F873 /* Journal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journal.m; sourceTree = "<group>"; };
+		94B68ABC1B87A52100E5F873 /* JournalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalRecord.h; sourceTree = "<group>"; };
+		94B68ABD1B87A52100E5F873 /* JournalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalRecord.m; sourceTree = "<group>"; };
 		94D4E1171B77D2FF0054732B /* Numeracy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numeracy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D4E11B1B77D2FF0054732B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94D4E11C1B77D2FF0054732B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		94D4E11D1B77D2FF0054732B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94D4E11C1B77D2FF0054732B /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		94D4E11D1B77D2FF0054732B /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
 		94D4E11F1B77D2FF0054732B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94D4E1211B77D2FF0054732B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94D4E1221B77D2FF0054732B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -79,10 +110,31 @@
 		94D4E1191B77D2FF0054732B /* Numeracy */ = {
 			isa = PBXGroup;
 			children = (
-				94D4E11C1B77D2FF0054732B /* AppDelegate.h */,
-				94D4E11D1B77D2FF0054732B /* AppDelegate.m */,
+				94863A7B1B82205C00DDF183 /* Numeracy.entitlements */,
+				94D4E11C1B77D2FF0054732B /* ApplicationDelegate.h */,
+				94D4E11D1B77D2FF0054732B /* ApplicationDelegate.m */,
+				94863A821B822F9B00DDF183 /* Brain.h */,
+				94863A831B822F9B00DDF183 /* Brain.m */,
+				94B68AB91B87A41D00E5F873 /* Journal.h */,
+				94B68ABA1B87A41D00E5F873 /* Journal.m */,
+				94B68ABC1B87A52100E5F873 /* JournalRecord.h */,
+				94B68ABD1B87A52100E5F873 /* JournalRecord.m */,
+				9409650C1B8877A700E81BF9 /* MainWindow.h */,
+				9409650D1B8877A700E81BF9 /* MainWindow.m */,
 				94D4E1211B77D2FF0054732B /* ViewController.h */,
 				94D4E1221B77D2FF0054732B /* ViewController.m */,
+				94863A7C1B822AC900DDF183 /* BinaryView.h */,
+				94863A7D1B822AC900DDF183 /* BinaryView.m */,
+				94863A851B82826500DDF183 /* ByteView.h */,
+				94863A861B82826500DDF183 /* ByteView.m */,
+				94863A7F1B822CAF00DDF183 /* BitButton.h */,
+				94863A801B822CAF00DDF183 /* BitButton.m */,
+				94863A881B86270B00DDF183 /* JournalView.h */,
+				94863A891B86270B00DDF183 /* JournalView.m */,
+				94863A8B1B862AF900DDF183 /* JournalRecordView.h */,
+				94863A8C1B862AF900DDF183 /* JournalRecordView.m */,
+				94B68AB61B875A8F00E5F873 /* JournalBitLane.h */,
+				94B68AB71B875A8F00E5F873 /* JournalBitLane.m */,
 				94D4E1241B77D2FF0054732B /* Images.xcassets */,
 				94D4E1261B77D2FF0054732B /* Main.storyboard */,
 				94D4E11A1B77D2FF0054732B /* Supporting Files */,
@@ -165,6 +217,12 @@
 				TargetAttributes = {
 					94D4E1161B77D2FF0054732B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KN3H69T969;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					94D4E12C1B77D2FF0054732B = {
 						CreatedOnToolsVersion = 6.4;
@@ -215,9 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B68ABE1B87A52100E5F873 /* JournalRecord.m in Sources */,
+				94863A841B822F9B00DDF183 /* Brain.m in Sources */,
+				94B68ABB1B87A41D00E5F873 /* Journal.m in Sources */,
 				94D4E1231B77D2FF0054732B /* ViewController.m in Sources */,
 				94D4E1201B77D2FF0054732B /* main.m in Sources */,
-				94D4E11E1B77D2FF0054732B /* AppDelegate.m in Sources */,
+				94D4E11E1B77D2FF0054732B /* ApplicationDelegate.m in Sources */,
+				94863A811B822CAF00DDF183 /* BitButton.m in Sources */,
+				94863A871B82826500DDF183 /* ByteView.m in Sources */,
+				9409650E1B8877A700E81BF9 /* MainWindow.m in Sources */,
+				94863A8A1B86270B00DDF183 /* JournalView.m in Sources */,
+				94B68AB81B875A8F00E5F873 /* JournalBitLane.m in Sources */,
+				94863A7E1B822AC900DDF183 /* BinaryView.m in Sources */,
+				94863A8D1B862AF900DDF183 /* JournalRecordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +402,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Numeracy/Numeracy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Numeracy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -345,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Numeracy/Numeracy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Numeracy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -407,6 +479,7 @@
 				94D4E1391B77D2FF0054732B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D4E13A1B77D2FF0054732B /* Build configuration list for PBXNativeTarget "NumeracyTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +488,7 @@
 				94D4E13C1B77D2FF0054732B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
