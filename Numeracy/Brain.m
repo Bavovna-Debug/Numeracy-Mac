@@ -40,6 +40,14 @@
     return self;
 }
 
+- (void)load
+{
+}
+
+- (void)save
+{
+}
+
 - (void)setNumeralSystem:(NumeralSystem)numeralSystem
 {
     _numeralSystem = numeralSystem;

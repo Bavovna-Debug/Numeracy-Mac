@@ -32,6 +32,14 @@
     return self;
 }
 
+- (void)load
+{
+}
+
+- (void)save
+{
+}
+
 - (void)pokeNumber:(UInt64)number
      numeralSystem:(NumeralSystem)numeralSystem
 {

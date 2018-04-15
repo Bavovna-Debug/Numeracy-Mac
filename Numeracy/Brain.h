@@ -39,6 +39,10 @@ typedef enum
 
 + (Brain *)sharedBrain;
 
+- (void)load;
+
+- (void)save;
+
 - (void)clear;
 
 - (void)translateDigit:(long)digit;

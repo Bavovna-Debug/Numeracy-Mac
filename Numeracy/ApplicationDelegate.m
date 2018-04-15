@@ -12,12 +12,14 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
-    [Brain sharedBrain];
-    [Journal sharedJournal];
+    [[Brain sharedBrain] load];
+    [[Journal sharedJournal] load];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification
 {
+    [[Brain sharedBrain] save];
+    [[Journal sharedJournal] save];
 }
 
 @end
